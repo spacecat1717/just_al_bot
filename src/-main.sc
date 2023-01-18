@@ -42,20 +42,9 @@ theme: /
             Пожалуйста, отправьте цифру, соответствующую вашему выбору.
             
     state: /1
-            
-        script: 
-            if ($parseTree._num === 1)
-            {
-                go!: /App;
-            }
-            else if ($parseTree._num === 2)
-            {
-                go!: /Card;
-            }
-            else
-            {
-            go!: /NoMatch;
-            }
-
+        if: $parseTree._num === 1
+            go!: /App
+        go!: /Card
+        
     state: Finish
         a: Приятно было пообщаться. Всегда готов помочь вам снова 
