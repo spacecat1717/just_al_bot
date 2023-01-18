@@ -53,7 +53,7 @@ theme: /
             go!: /App
         
         state: ChoiceTwo
-            q: *$Two
+            q: * $Two *
             go!: /Card
         
     state: Finish
