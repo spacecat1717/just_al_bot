@@ -46,15 +46,15 @@ theme: /
         script: 
             if ($parseTree._num === 1)
             {
-                go!: /App
+                go!: /App;
             }
             else if ($parseTree._num === 2)
             {
-                go!: /Card
+                go!: /Card;
             }
             else
             {
-            go!: /NoMatch
+            go!: /NoMatch;
             }
 
     state: Finish
