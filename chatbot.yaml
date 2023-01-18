@@ -8,7 +8,7 @@ botEngine: v2
 language: ru
 
 sts:
-    noMatchThreshold: 0.2
+    noMatchThreshold: 0.3
 
 nlp:
     intentNoMatchThresholds:
