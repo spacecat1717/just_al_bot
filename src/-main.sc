@@ -41,10 +41,10 @@ theme: /
 
             Пожалуйста, отправьте цифру, соответствующую вашему выбору.
             
-    state: /1
-        if: $parseTree._num === 1
-            go!: /App
-        go!: /Card
+        state: Choice
+            if: $parseTree._num === 1
+                go!: /App
+            go!: /Card
         
     state: Finish
         a: Приятно было пообщаться. Всегда готов помочь вам снова 
