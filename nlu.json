@@ -209,7 +209,7 @@
       "name" : "num",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "$context.intent.answer" ]
+      "prompts" : [ ]
     } ],
     "priority" : 0
   }, {
