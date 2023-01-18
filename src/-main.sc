@@ -44,11 +44,18 @@ theme: /
     state: /1
             
         script: 
-            if: $parseTree._num === 1
+            if ($parseTree._num === 1)
+            {
                 go!: /App
-            else if: $parseTree._num === 2
+            }
+            else if ($parseTree._num === 2)
+            {
                 go!: /Card
+            }
+            else
+            {
             go!: /NoMatch
+            }
 
     state: Finish
         a: Приятно было пообщаться. Всегда готов помочь вам снова 
