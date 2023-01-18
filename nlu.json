@@ -205,12 +205,7 @@
       "refs" : [ ]
     },
     "patterns" : [ ],
-    "slots" : [ {
-      "name" : "num",
-      "entity" : "duckling.number",
-      "required" : true,
-      "prompts" : [ ]
-    } ],
+    "slots" : [ ],
     "priority" : 0
   }, {
     "path" : "/пароль от приложения",
