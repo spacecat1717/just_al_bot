@@ -1,5 +1,10 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
+
+patterns:
+    $One = (1)
+    $Two = (2)  
+
 theme: /
 
     state: Start
@@ -40,10 +45,14 @@ theme: /
             2. Поменять PIN-код от карты.
 
             Пожалуйста, отправьте цифру, соответствующую вашему выбору.
+        
             
-        state: Choice
-            if: $parseTree._num === 1
-                go!: /App
+        state: ChoiceOne
+            q: * $One * 
+            go!: /App
+        
+        state: ChoiceTwo
+            q: *$Two
             go!: /Card
         
     state: Finish
