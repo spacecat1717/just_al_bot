@@ -1,0 +1,31 @@
+{
+  "positions" : [ {
+    "id" : "/Start",
+    "x" : 240,
+    "y" : 294
+  }, {
+    "id" : "/App",
+    "x" : 620,
+    "y" : 547
+  }, {
+    "id" : "/Card",
+    "x" : 620,
+    "y" : 1101
+  }, {
+    "id" : "/NoMatch",
+    "x" : 240,
+    "y" : 824
+  }, {
+    "id" : "/Finish",
+    "x" : 1000,
+    "y" : 824
+  }, {
+    "id" : "/NoMatch/ChoiceOne",
+    "x" : 240,
+    "y" : 252
+  }, {
+    "id" : "/NoMatch/ChoiceTwo",
+    "x" : 240,
+    "y" : 555
+  } ]
+}
