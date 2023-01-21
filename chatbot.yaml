@@ -12,5 +12,5 @@ sts:
 
 nlp:
     intentNoMatchThresholds:
-        phrases: 0.4
+        phrases: 0.3
         patterns: 0.3
