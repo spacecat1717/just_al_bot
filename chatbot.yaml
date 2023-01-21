@@ -8,9 +8,9 @@ botEngine: v2
 language: ru
 
 sts:
-    noMatchThreshold: 0.3
+    noMatchThreshold: 0.4
 
 nlp:
     intentNoMatchThresholds:
-        phrases: 0.1
+        phrases: 0.4
         patterns: 0.3
